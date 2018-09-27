@@ -1,4 +1,6 @@
 
+/* font-family: 'Lato', sans-serif; */
+
 .section_padding_style {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -10,6 +12,23 @@
 }
 
 
+.lato_style {
+
+  font-family: 'Lato', sans-serif;
 
 
-    /* font-family: 'Lato', sans-serif; */
+}
+
+.hockey_style_half_adult {
+    background-size: cover;
+    height: 32rem;
+    width: 100%;
+    background-image: url(../img/ironman_action.jpg);
+}
+
+.hockey_style_half_goalie {
+    background-size: cover;
+    height: 32rem;
+    width: 100%;
+    background-image: url(../img/goalies_adults.jpg);
+}
