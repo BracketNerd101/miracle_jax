@@ -90,7 +90,7 @@ h6 {
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("..img/faceoff.jpg");
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("..img/faceoff.jpg");
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;ß
   background-size: cover;
 } */
 
@@ -102,11 +102,25 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/fall_jax_champs.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/fall_jax_champs.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1ß))), url("../img/jax_2019_champs.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/jax_2019_champs.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.example_play {
+
+  width: 100%;
+  height: 15rem;
+  background-image: url(../img/face_off.jpg);
+  background-size: cover;
+}
+
+.section_space {
+
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .masthead h3 {
