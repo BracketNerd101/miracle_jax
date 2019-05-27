@@ -25,14 +25,14 @@
 
 .hockey_style_half_adult {
     background-size: cover;
-    height: 32rem;
+    /* height: 31rem; */
     width: 100%;
-    background-image: url(../img/Mike-Pradella.jpg);
+    background-image: url('../img/Mike-Pradella.jpg');
 }
 
 .hockey_style_half_goalie {
     background-size: cover;
-    height: 32rem;
+    /* height: 31rem; */
     width: 100%;
-    background-image: url(../img/goalies_adults.jpg);
+    background-image: url('../img/goalies_adults.jpg');
 }
