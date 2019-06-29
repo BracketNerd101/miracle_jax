@@ -36,3 +36,10 @@
     width: 100%;
     background-image: url('../img/goalies_adults.jpg');
 }
+
+.tourny_style_half_goalie {
+    background-size: cover;
+    /* height: 31rem; */
+    width: 100%;
+    background-image: url('../img/goalies_adults.jpg');
+}
