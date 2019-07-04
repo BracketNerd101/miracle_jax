@@ -1,4 +1,43 @@
 body {
-  min-height: 1200px; }
+  min-height: 1900px; }
+
+.hero_bg {
+  height: 105vh;
+  background: #00C9FF;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #92FE9D, #00C9FF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .hero_bg .team_champs_img {
+    background-size: cover;
+    background-image: url("../img/jax_2019_champ.png");
+    height: 40rem;
+    width: 100%;
+    border: 10px solid #FFFFFF; }
+
+.bob {
+  font-size: 2rem; }
+
+.lg_bob {
+  font-size: 5rem; }
+
+.banner_text {
+  color: #ffffff; }
+
+.large_mg {
+  margin-bottom: 5rem; }
+
+.small_mg {
+  margin-bottom: 5rem; }
+
+.large_mg_top {
+  margin-top: 2rem; }
+
+.large_pd_top {
+  padding-top: 5rem; }
+
+.large_pd_top {
+  padding-top: 5rem; }
 
 /*# sourceMappingURL=new_style.css.map */
