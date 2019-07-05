@@ -1,15 +1,17 @@
 
   body {
 
-  min-height: 1900px;
-
+  min-height: 4000px;
   }
 
+.nav_layer {
 
+  z-index: 867886546543;
+}
 
   .hero_bg {
 
-    height: 105vh;
+    height: 90vh;
     overflow: hidden;
     background: #00C9FF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
@@ -67,9 +69,9 @@
 
   }
 
-  .large_pd_top {
+  .large_pd_bottom {
 
-    padding-top: 5rem;
+    padding-bottom: 5rem;
 
   }
 
@@ -79,4 +81,31 @@
     /* height: 31rem; */
     width: 100%;
     background-image: url('../img/Mike-Pradella.jpg');
+}
+
+.hockey_style_half_adult_goalie {
+  background-size: cover;
+  /* height: 31rem; */
+  width: 100%;
+  background-image: url('../img/aedo.png');
+}
+
+
+.gallery_style {
+
+  background-size: cover;
+  /* height: 31rem; */
+  height: 25rem;
+  width: 100%;
+
+  margin-bottom: auto;
+  margin-top: auto;
+  
+}
+
+
+.footer_cont {
+
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
