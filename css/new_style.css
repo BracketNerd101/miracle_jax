@@ -3,6 +3,7 @@ body {
 
 .hero_bg {
   height: 105vh;
+  overflow: hidden;
   background: #00C9FF;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
@@ -39,5 +40,11 @@ body {
 
 .large_pd_top {
   padding-top: 5rem; }
+
+.hockey_style_half_adult {
+  background-size: cover;
+  /* height: 31rem; */
+  width: 100%;
+  background-image: url("../img/Mike-Pradella.jpg"); }
 
 /*# sourceMappingURL=new_style.css.map */
