@@ -2,7 +2,7 @@
   z-index: 867886546543; }
 
 .hero_bg {
-  height: 90vh;
+  height: 130vh;
   overflow: hidden;
   background: #00C9FF;
   /* fallback for old browsers */
@@ -18,7 +18,7 @@
     border: 10px solid #FFFFFF; }
 
 .bob {
-  font-size: 2rem; }
+  font-size: 1.3rem; }
 
 .lg_bob {
   font-size: 5rem; }
@@ -41,6 +41,11 @@
 .large_pd_bottom {
   padding-bottom: 5rem; }
 
+.map_style_space {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 15rem; }
+
 .hockey_style_half_adult {
   background-size: cover;
   /* height: 31rem; */
@@ -59,9 +64,9 @@
 
 .footer_container_style {
   width: 100% !important;
+  margin-top: 15rem;
   background-color: #f2f2f2;
-  padding: 80px 0 60px 0;
   text-align: center;
-  color: #fff; }
+  color: #333333; }
 
 /*# sourceMappingURL=new_style.css.map */

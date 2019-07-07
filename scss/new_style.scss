@@ -11,7 +11,7 @@
 
   .hero_bg {
 
-    height: 90vh;
+    height: 130vh;
     overflow: hidden;
     background: #00C9FF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
@@ -31,7 +31,7 @@
 
   .bob {
 
-    font-size: 2rem;
+    font-size: 1.3rem;
 
   }
 
@@ -75,6 +75,12 @@
 
   }
 
+  .map_style_space {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 15rem;
+  }
 
   .hockey_style_half_adult {
     background-size: cover;
@@ -114,8 +120,8 @@
 .footer_container_style {
 
   width: 100% !important;
+  margin-top: 15rem;
   background-color: #f2f2f2;
-  padding: 80px 0 60px 0;
     text-align: center;
-    color: #fff;
+    color: #333333;
 }
