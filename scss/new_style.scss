@@ -1,7 +1,7 @@
 
   body {
 
-  min-height: 4000px;
+  // min-height: 4000px;
   }
 
 .nav_layer {
@@ -91,21 +91,31 @@
 }
 
 
-.gallery_style {
+// .gallery_style {
 
-  background-size: cover;
-  /* height: 31rem; */
-  height: 25rem;
-  width: 100%;
-
-  margin-bottom: auto;
-  margin-top: auto;
+//   background-size: cover;
+//   /* height: 31rem; */
+//   height: 25rem;
   
-}
+
+//   margin-bottom: auto;
+//   margin-top: auto;
+  
+// }
 
 
 .footer_cont {
 
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+
+
+.footer_container_style {
+
+  width: 100% !important;
+  background-color: #f2f2f2;
+  padding: 80px 0 60px 0;
+    text-align: center;
+    color: #fff;
 }
