@@ -49,29 +49,29 @@
 
   .large_mg {
 
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
 
   .small_mg {
 
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
 
   .large_mg_top {
 
-    margin-top: 2rem;
+    margin-top: 3rem;
 
   }
 
   .large_pd_top {
 
-    padding-top: 5rem;
+    padding-top: 6rem;
 
   }
 
   .large_pd_bottom {
 
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
 
   }
 
@@ -109,11 +109,24 @@
   
 // }
 
+.stats_area {
+
+  height: 25rem;
+  margin-bottom: auto;
+  margin-top: auto;
+
+}
+
+.stats_frame_style {
+
+  height: 25rem;
+
+}
 
 .footer_cont {
 
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
 }
 
 
