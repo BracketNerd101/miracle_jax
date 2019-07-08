@@ -2,7 +2,7 @@
   z-index: 867886546543; }
 
 .hero_bg {
-  height: 130vh;
+  height: 93vh;
   overflow: hidden;
   background: #00C9FF;
   /* fallback for old browsers */
@@ -72,7 +72,7 @@
 
 .footer_container_style {
   width: 100% !important;
-  margin-top: 15rem;
+  margin-top: 21rem;
   background-color: #f2f2f2;
   text-align: center;
   color: #333333; }

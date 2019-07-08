@@ -43,7 +43,9 @@
                     <div class="col-lg-12 text-center banner_text"><h4 class="bob">League Champs Puck Norris</h4>
                     </div>
                     <div class="col-lg-12 text-center">
-                        <button type="button" class="btn btn-lg btn-light large_mg_top">See More</button>
+                        
+                        <a href="#welcome" target="_blank" class="btn btn-lg btn-light rounded-0 large_mg_top" role="button" data-id="1">Learn More </a> 
+                        <a href="#stats" target="_blank" class="btn btn-lg btn-light rounded-0 large_mg_top" role="button" data-id="1">Player Stats </a>
                     </div>
                 </div>
 
@@ -70,16 +72,16 @@
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                                 <ul class="navbar-nav nav">
                                   <li class="nav-item active">
-                                    <a class="nav-link" href="#">Welcome</a>
+                                    <a class="nav-link" href="#welcome">Welcome</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" href="#">Gear Up</a>
+                                    <a class="nav-link" href="#gear">Gear Up</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" href="#">Stats</a>
+                                    <a class="nav-link" href="#stats">Stats</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" href="#">Location</a>
+                                    <a class="nav-link" href="#location">Location</a>
                                   </li>
                                 </ul>
                               </div>
@@ -101,7 +103,7 @@
                      
                   </div>
                   <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6" id="welcome">
                                 <p>Welcome to Jax Roller Hockey. This is the official website for the inline hockey organization of Jacksonville Florida. Here you can find out about the league, schedules important links and anything you might want to know about our organization.</p>
                             </div>
                             <div class="col-lg-6">
@@ -132,7 +134,7 @@
 
               <div class="container">
                   <div class="row large_pd_top">
-                        <div class=" col-md-6 col-lg-6">
+                        <div class=" col-md-6 col-lg-6" id="gear">
                                 <article class="card">
                                   <img class=" hockey_style_half_adult" src="img/Mike-Pradella.jpg" alt="Article Image">
                                   <div class="card-body">
@@ -175,22 +177,28 @@
               <div class="container large_mg">
                   <div class="row">
                       <div class="col-lg-12">
-                              <h2 class="large_pd_top">Player Stats</h2>
+                              <h2 class="large_pd_top" id="stats">Player Stats</h2>
                                 
                        </div>
                        <div class="col-lg-3">
                               <hr class="bg-success">
                           </div>
+
                     
                 </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="lead">Scroll inside the frame to see top players in the league.</p>
+                        </div>
+          </div>
               </div>
 
-              <div class="container bg-light stats_area" id="stats">
+              <div class="container bg-light stats_area">
                   <div class="row">
 
                     
                     <div class="col-lg-12">
-                       <div class="embed-responsive stats_frame_style embed-responsive-16by9">
+                       <div class="embed-responsive stats_frame_style embed-responsive-16by9 shadow-lg p-3 mb-5 bg-white rounded">
                            <iframe class="embed-responsive-item" src="https://www.mystatsonline.com/hockey/visitor/league/stats/skater_hockey.aspx?IDLeague=56653&iframe=yes" allowfullscreen></iframe>
                            <!-- https://www.mystatsonline.com/hockey/visitor/league/iframe/i_recent_scores.aspx?IDLeague=56653
  
@@ -238,7 +246,7 @@
                   <div class="col-lg-4">
                     <h4>Clinics and Saturday Practices</h4>
                         <hr class="bg-success">
-                    <p class=""> We offer different drills, skating exercises and opportunities to scrimage. Check facebook for updates for saturday clinics. Times may vary but expect to wake up before 6am.  </p>
+                    <p class=""> We offer different drills, skating exercises and opportunities to scrimmage. Check facebook for updates for saturday clinics. Times may vary but expect to wake up before 6am.  </p>
                   </div>
                 </div>
               </div>
@@ -246,6 +254,13 @@
 
               <div class="container-fluid">
                 <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 gallery_style">
+                        <figure class="figure">
+                            <img src="img/face_off_adults.jpg" class="figure-img img-fluid rounded" alt="...">
+                           
+                          </figure>
+                      
+                    </div>
                   <div class="col-lg-6 col-md-6 col-sm-12 gallery_style">
                       <figure class="figure">
                           <img src="img/tyrone.jpg" class="figure-img img-fluid rounded" alt="...">
@@ -253,13 +268,7 @@
                         </figure>
                     
                   </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 gallery_style">
-                      <figure class="figure">
-                          <img src="img/face_off_adults.jpg" class="figure-img img-fluid rounded" alt="...">
-                         
-                        </figure>
-                    
-                  </div>
+                  
                 </div><!-- end row -->
                 
               </div><!-- end container -->
@@ -267,18 +276,19 @@
                   <div class="row">
                       <div class="col-lg-6 col-md-6 col-sm-12 gallery_style">
                           <figure class="figure">
-                              <img src="img/jacob_1.jpg" class="figure-img img-fluid rounded" alt="...">
-                             
-                            </figure>
-                       
-                      </div>
-                      <div class="col-lg-6 col-md-6 col-sm-12 gallery_style">
-                          <figure class="figure">
                               <img src="img/adult_breakaway.jpg" class="figure-img img-fluid rounded" alt="...">
                               
                             </figure>
                         
                       </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12 gallery_style">
+                          <figure class="figure">
+                              <img src="img/jacob_1.jpg" class="figure-img img-fluid rounded" alt="...">
+                             
+                            </figure>
+                       
+                      </div>
+                      
                     </div><!-- end row -->
               </div>
 
@@ -288,7 +298,7 @@
                                 <h2 class="large_pd_top">Where do we play? 
                                    
                                 </h2>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3" id="location">
                                     <hr class="bg-success">
                                 </div>
                                 <p class="large_mg_top">
