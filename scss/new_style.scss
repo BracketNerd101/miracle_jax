@@ -2,7 +2,10 @@
   body {
 
   // min-height: 4000px;
+  font-family: 'Quicksand', sans-serif;
   }
+
+  // font-family: 'Quicksand', sans-serif;
 
 .nav_layer {
 
@@ -13,9 +16,8 @@
 
     height: 93vh;
     overflow: hidden;
-    background: #00C9FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    // background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
 
     .team_champs_img {
 
@@ -23,11 +25,15 @@
       background-image: url('../img/jax_2019_champ.png');
       height: 40rem;
       width: 100%; 
-      border: 10px solid #FFFFFF;
+      border: 5px solid #ffffff;
   
     }
   }
 
+  .hockey_title {
+
+    font-family: 'Quicksand', sans-serif;
+  }
 
   .bob {
 
@@ -43,7 +49,7 @@
 
   .banner_text {
 
-    color: #ffffff;
+    color: #333;
 
   }
 
