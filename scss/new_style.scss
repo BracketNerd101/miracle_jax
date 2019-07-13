@@ -37,13 +37,29 @@
 
       /* The default, as in, you get this without defining anything */
       transition-timing-function: ease;
-      transition: 0.8s;
-      transition-duration: 0.8s;
+      -webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
     
       /* Also the same as */
       transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
       
     }
+
+    a[ id= "welcome" ]:target ~ #welcome {
+      -webkit-transform: translateY( 0px);
+      transform: translateY( 0px );
+  }
+  
+  a[ id= "gear" ]:target ~ #gear {
+      -webkit-transform: translateY( -500px );
+      transform: translateY( -500px );
+  }
+  a[ id= "stats" ]:target ~ #stats {
+      -webkit-transform: translateY( -1000px );
+      transform: translateY( -1000px );
+  }
 
   }
 
