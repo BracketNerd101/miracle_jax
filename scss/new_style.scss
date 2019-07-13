@@ -37,6 +37,8 @@
 
       /* The default, as in, you get this without defining anything */
       transition-timing-function: ease;
+      transition: 0.8s;
+      transition-duration: 0.8s;
     
       /* Also the same as */
       transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
