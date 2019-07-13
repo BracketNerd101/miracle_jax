@@ -47,20 +47,6 @@
       
     }
 
-    a[ id= "welcome" ]:target ~ #welcome {
-      -webkit-transform: translateY( 0px);
-      transform: translateY( 0px );
-  }
-  
-  a[ id= "gear" ]:target ~ #gear {
-      -webkit-transform: translateY( -500px );
-      transform: translateY( -500px );
-  }
-  a[ id= "stats" ]:target ~ #stats {
-      -webkit-transform: translateY( -1000px );
-      transform: translateY( -1000px );
-  }
-
   }
 
   .hockey_title {

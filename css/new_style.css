@@ -24,15 +24,6 @@ body {
   transition: transform 0.6s ease-in-out;
   /* Also the same as */
   transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); }
-.smooth_ride a[id="welcome"]:target ~ #welcome {
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px); }
-.smooth_ride a[id="gear"]:target ~ #gear {
-  -webkit-transform: translateY(-500px);
-  transform: translateY(-500px); }
-.smooth_ride a[id="stats"]:target ~ #stats {
-  -webkit-transform: translateY(-1000px);
-  transform: translateY(-1000px); }
 
 .hockey_title {
   font-family: 'Quicksand', sans-serif; }
