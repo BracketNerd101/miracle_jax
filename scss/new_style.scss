@@ -30,6 +30,21 @@
     }
   }
 
+
+  .smooth_ride {
+
+    .ride_ink {
+
+      /* The default, as in, you get this without defining anything */
+      transition-timing-function: ease;
+    
+      /* Also the same as */
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+      
+    }
+
+  }
+
   .hockey_title {
 
     font-family: 'Quicksand', sans-serif;
