@@ -15,15 +15,12 @@ body {
     width: 100%;
     border: 5px solid #ffffff; }
 
-.smooth_ride .ride_ink {
-  /* The default, as in, you get this without defining anything */
-  transition-timing-function: ease;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-transition: -webkit-transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out;
-  /* Also the same as */
-  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); }
+a {
+  transition: all 4.3s ease-out;
+  transition-property: all;
+  transition-duration: 6.8s;
+  transition-timing-function: ease-out;
+  transition-delay: initial; }
 
 .hockey_title {
   font-family: 'Quicksand', sans-serif; }
