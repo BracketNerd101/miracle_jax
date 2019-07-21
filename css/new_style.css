@@ -1,0 +1,91 @@
+body {
+  font-family: 'Quicksand', sans-serif; }
+
+.nav_layer {
+  z-index: 867886546543; }
+
+.hero_bg {
+  height: 93vh;
+  overflow: hidden;
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%); }
+  .hero_bg .team_champs_img {
+    background-size: cover;
+    background-image: url("../img/jax_2019_champ.png");
+    height: 40rem;
+    width: 100%;
+    border: 5px solid #ffffff; }
+
+a {
+  transition: all 4.3s ease-out;
+  transition-property: all;
+  transition-duration: 6.8s;
+  transition-timing-function: ease-out;
+  transition-delay: initial; }
+
+.hockey_title {
+  font-family: 'Quicksand', sans-serif; }
+
+.bob {
+  font-size: 1.3rem; }
+
+.lg_bob {
+  font-size: 5rem; }
+
+.banner_text {
+  color: #333; }
+
+.large_mg {
+  margin-bottom: 6rem; }
+
+.small_mg {
+  margin-bottom: 6rem; }
+
+.large_mg_top {
+  margin-top: 3rem; }
+
+.mini_mg {
+  margin-top: 2rem; }
+
+.large_pd_top {
+  padding-top: 6rem; }
+
+.large_pd_bottom {
+  padding-bottom: 6rem; }
+
+.map_style_space {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 30rem; }
+
+.hockey_style_half_adult {
+  background-size: cover;
+  /* height: 31rem; */
+  width: 100%;
+  background-image: url("../img/Mike-Pradella.jpg"); }
+
+.hockey_style_half_adult_goalie {
+  background-size: cover;
+  /* height: 31rem; */
+  width: 100%;
+  background-image: url("../img/aedo.png"); }
+
+.stats_area {
+  height: 25rem;
+  margin-bottom: 8rem;
+  margin-top: auto; }
+
+.stats_frame_style {
+  height: 25rem; }
+
+.footer_cont {
+  padding-top: 2rem;
+  padding-bottom: 4rem; }
+
+.footer_container_style {
+  width: 100% !important;
+  margin-top: 21rem;
+  background-color: #333333;
+  text-align: center;
+  color: #f2f2f2; }
+
+/*# sourceMappingURL=new_style.css.map */
