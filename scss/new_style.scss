@@ -31,23 +31,23 @@
   }
 
 
-  .smooth_ride {
+  // .smooth_ride {
 
-    .ride_ink {
+  //   .ride_ink {
 
-      /* The default, as in, you get this without defining anything */
-      transition-timing-function: ease;
-      -webkit-transform: translateZ( 0 );
-    transform: translateZ( 0 );
-    -webkit-transition: -webkit-transform 0.6s ease-in-out;
-    transition: transform 0.6s ease-in-out;
+  //     /* The default, as in, you get this without defining anything */
+  //     transition-timing-function: ease;
+  //     -webkit-transform: translateZ( 0 );
+  //   transform: translateZ( 0 );
+  //   -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  //   transition: transform 0.6s ease-in-out;
     
-      /* Also the same as */
-      transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  //     /* Also the same as */
+  //     transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
       
-    }
+  //   }
 
-  }
+  // }
 
   .hockey_title {
 
