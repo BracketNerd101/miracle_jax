@@ -15,6 +15,16 @@ body {
     width: 100%;
     border: 5px solid #ffffff; }
 
+<<<<<<< HEAD
+=======
+a {
+  transition: all 4.3s ease-out;
+  transition-property: all;
+  transition-duration: 6.8s;
+  transition-timing-function: ease-out;
+  transition-delay: initial; }
+
+>>>>>>> e50edee02ee4079eb776f2fd569d6875f046aa59
 .hockey_title {
   font-family: 'Quicksand', sans-serif; }
 

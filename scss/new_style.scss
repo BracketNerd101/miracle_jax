@@ -30,6 +30,14 @@
     }
   }
 
+  a {
+    transition: all 4.3s ease-out;
+    transition-property: all;
+    transition-duration: 6.8s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+}
+
 
   // .smooth_ride {
 
